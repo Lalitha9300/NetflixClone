@@ -198,7 +198,7 @@ position: absolute;
 
 }
 #main>.main-page>#main-page-overlay>.content>form>.forms>div>.inputs>input{
-    width: 60%;
+    width: 80%;
     appearance: none;
     position: absolute;
     margin-top: 30px;
@@ -210,14 +210,14 @@ position: absolute;
     font: inherit;
     letter-spacing: inherit;
     line-height: inherit;
-    /* margin: 0; */
     min-width: 15px;
     min-height: 15px;
     padding: 0;
     text-align: inherit;
-    /* -webkit-text-decoration: inherit; */
     text-decoration: inherit;
     text-transform: inherit;
+    outline: none;
+
 }
 #main>.main-page>#main-page-overlay>.content>form>.forms>div>.inputs>input:focus-visible{
     outline-offset: 0px;
@@ -695,7 +695,7 @@ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 }
 #question>.question-page>.membership>.forms>div>.inputs>input{
-    width: 60%;
+    width: 80%;
     appearance: none;
     position: absolute;
     margin-top: 30px;
@@ -713,6 +713,7 @@ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     text-align: inherit;
     text-decoration: inherit;
     text-transform: inherit;
+    outline: none;
 }
 #question>.question-page>.membership>.forms>div>.inputs>input:focus-visible{
     outline-offset: 0px;
